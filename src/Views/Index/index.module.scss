@@ -1,0 +1,33 @@
+.indexheader {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  display: flex;
+  z-index: 10;
+  transform: translateX(-50%);
+  height: 0.44rem;
+  // background-color: red;
+  .citys {
+    height: 100%;
+    padding: 0 0.15rem;
+    color: #333333;
+    font-size: 0.14rem;
+    line-height: 0.44rem;
+  }
+  .search{
+      flex: 1;
+      height: 0.32rem;
+      margin: auto;
+      border-radius: 0.16rem;
+  }
+  .gouwuche{
+      margin-right: 0.15rem;
+      height: 0.44rem;
+      line-height: 0.44rem;
+      width: 0.4rem;
+      text-align: center;
+      color: black;
+  }
+}

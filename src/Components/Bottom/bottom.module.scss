@@ -1,0 +1,69 @@
+// .active{
+//     color:red
+// }
+
+// #kerwin{
+//     background:red;
+// }
+
+/* ul.a li{
+    padding:5px;
+} */
+
+.nav{
+    z-index:100;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height: 0.5rem;
+    background: white;
+    .ul{
+        display: flex;
+        .li{
+            flex:1;
+            line-height: 0.5rem;
+            height: 0.5rem;
+            text-align: center;
+            // background:  url("https://sr.aihuishou.com/sos/image/6369180565501400401974165397.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            // background-size: 100% 100%;
+            a{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .index{
+            background:  url("https://sr.aihuishou.com/sos/image/636919176581567780486725169.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .huanxinji{
+            background:  url("https://sr.aihuishou.com/sos/image/6369310931278711901015172743.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .fuwuzhan{
+            background:  url("https://sr.aihuishou.com/sos/image/6369368866843090802043264357.png?x-oss-process=image/quality,q_80&size=72x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .wode{
+            background:  url("https://sr.aihuishou.com/sos/image/6369180567810294601410527364.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .activeindex{
+            background:  url("https://sr.aihuishou.com/sos/image/6369180565501400401974165397.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .activehuanxinji{
+            background:  url("https://sr.aihuishou.com/sos/image/6369310931537062801946906544.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .activefuwuzhan{
+            background:  url("https://sr.aihuishou.com/sos/image/6369368867170919001601808662.png?x-oss-process=image/quality,q_80&size=72x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+        .activewode{
+            background:  url("https://sr.aihuishou.com/sos/image/6369187504134054301791478796.png?x-oss-process=image/quality,q_80&size=250x98") no-repeat center center;
+            background-size: auto 100%;
+        }
+    }
+}
